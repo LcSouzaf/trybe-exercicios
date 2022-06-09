@@ -16,7 +16,6 @@
     main{ background-color: #ED5107;
         height: 800px;
         text-align: center;
-        margin-bottom: 100px;
 
     }
     footer{ background-color:#230338;
@@ -36,8 +35,7 @@
     h1 {
         background-color: #c70d3a;
     text-align: center };
-
     .foto-redonda {
-    border-radius: 50%;
+        border-radius: 50%;
     }
 </style>
