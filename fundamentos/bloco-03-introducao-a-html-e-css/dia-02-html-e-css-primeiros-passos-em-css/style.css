@@ -1,22 +1,25 @@
 <style>
-    
-    html, body {
-        padding: 0;
-        margin: 0;
-        box-sizing: 0;
+  *{
+      margin: 0 ;
+      padding: 0;
 
-    }
-    .container {
-        display: grid;
-            } 
-
+  }  
     header{ background-color: #C70D3A;
-        height: 100px;
+        height: 150px;
+        padding: 25px;
+
     }
+   .foto-lucas {
+       border-radius : 80%;
+       margin-left: 50px;
+       margin-top: 2%;
+   }
+
+   .apresentacao {
+       left: 50px;
+   }
     main{ background-color: #ED5107;
         height: 800px;
-        text-align: center;
-
     }
     footer{ background-color:#230338;
         height: 150px;
@@ -24,8 +27,10 @@
         text-align: center;
         color: antiquewhite;
     }
+   footer p {
+   }
     body {
-        font-size: 20px 
+        font-size: 20px
      line-height: 10px;
      font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,9 +38,5 @@
 
     }
     h1 {
-        background-color: #c70d3a;
-    text-align: center };
-    .foto-redonda {
-        border-radius: 50%;
-    }
+        background-color: #c70d3a; };
 </style>
