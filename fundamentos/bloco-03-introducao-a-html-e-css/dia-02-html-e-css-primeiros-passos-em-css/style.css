@@ -1,0 +1,39 @@
+<style>
+    
+    html, body {
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+
+    }
+    .container {
+        display: grid;
+            } 
+
+    header{ background-color: #C70D3A;
+        height: 100px;
+    }
+    main{ background-color: #ED5107;
+        height: 800px;
+
+    }
+    footer{ background-color:#230338;
+        height: 100px;
+
+    }
+    body {
+        font-size: 20px 
+     line-height: 10px;
+     font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">, sans-serif;
+
+    }
+    h1 {
+        background-color: #c70d3a;
+    text-align: center };
+
+    .foto-redonda {
+    border-radius: 50%;
+    }
+</style>
