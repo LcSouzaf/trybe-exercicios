@@ -15,11 +15,15 @@
     }
     main{ background-color: #ED5107;
         height: 800px;
+        text-align: center;
+        margin-bottom: 100px;
 
     }
     footer{ background-color:#230338;
-        height: 100px;
-
+        height: 150px;
+        padding: 20px;
+        text-align: center;
+        color: antiquewhite;
     }
     body {
         font-size: 20px 
