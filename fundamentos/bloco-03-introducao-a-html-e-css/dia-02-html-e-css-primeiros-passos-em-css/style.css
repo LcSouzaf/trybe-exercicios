@@ -1,42 +1,42 @@
-<style>
-  *{
-      margin: 0 ;
-      padding: 0;
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-  }  
-    header{ background-color: #C70D3A;
-        height: 150px;
-        padding: 25px;
+header {
+    background-color: #000C66;
+    text-align: center;
+    color: whitesmoke;
+    ;
+}
+.foto-lucas {
+    border-radius: 50%;
+    object-position: 20%;
+    width: 100px;
+}
 
-    }
-   .foto-lucas {
-       border-radius : 80%;
-       margin-left: 50px;
-       margin-top: 2%;
-   }
+nav {
+    background-color: #7EC8E3;
+    color: #050A30;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+main {
+    background-color: #050A30;
+    color: whitesmoke;
+    padding: 50px;
 
-   .apresentacao {
-       left: 50px;
-   }
-    main{ background-color: #ED5107;
-        height: 800px;
-    }
-    footer{ background-color:#230338;
-        height: 150px;
-        padding: 20px;
-        text-align: center;
-        color: antiquewhite;
-    }
-   footer p {
-   }
-    body {
-        font-size: 20px
-     line-height: 10px;
-     font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">, sans-serif;
+}
+.habilidades-comp{
+    display: block
+   margin-left: 
 
-    }
-    h1 {
-        background-color: #c70d3a; };
-</style>
+}
+footer {
+    background-color: #7EC8E3;
+    height: 50px;
+}
