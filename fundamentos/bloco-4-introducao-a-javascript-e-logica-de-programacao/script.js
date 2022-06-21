@@ -41,3 +41,16 @@ if(num1 > 0){
 
 //exercicio 5
 
+const angulo1 = 20;
+const angulo2 = 80;
+const angulo3 = 55;
+
+var somaAngulos = angulo1+angulo2+angulo3
+
+if(somaAngulos === 180 ){
+console.log(true)
+}else if (somaAngulos < 180){
+    console.log (false)
+}else{
+    console.log('error')
+}
