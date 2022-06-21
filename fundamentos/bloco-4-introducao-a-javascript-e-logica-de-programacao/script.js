@@ -58,3 +58,24 @@ console.log(true)
 //exercicio 6
 
 const cavalo = 
+
+//exercicio 7
+
+let notas = 65;
+
+if (notas >= 90) {
+    console.log('A')
+}else if (notas < 90 && notas >= 80) {
+    console.log('B')
+}else if (notas < 80 && notas >= 70) {
+    console.log('C')
+}else if (notas < 70 && notas >= 60) {
+    console.log('D')
+}else if (notas < 60 && notas >= 50) {
+    console.log('E')
+}else if (notas < 50) {
+    console.log('F');
+}
+
+//exercicio 8
+
