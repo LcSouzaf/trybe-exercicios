@@ -27,3 +27,17 @@ if (primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero) {
 } else if (terceiroNumero > segundoNumero && terceiroNumero> primeiroNumero) {
     console.log(terceiroNumero)
 };
+
+//exercicio 4
+
+const num1 = -55;
+if(num1 > 0){
+    console.log('positive')
+} else if(num1<0) {
+    console.log('negative')
+}else if (num1 == 0){
+    console.log('0')
+};
+
+//exercicio 5
+
