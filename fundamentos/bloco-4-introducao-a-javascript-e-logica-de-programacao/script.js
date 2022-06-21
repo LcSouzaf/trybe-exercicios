@@ -51,6 +51,10 @@ if(somaAngulos === 180 ){
 console.log(true)
 }else if (somaAngulos < 180){
     console.log (false)
-}else{
+}else if(somaAngulos <= 0){
     console.log('error')
 }
+
+//exercicio 6
+
+const cavalo = 
