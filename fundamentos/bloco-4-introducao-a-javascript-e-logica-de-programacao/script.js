@@ -61,9 +61,11 @@ const cavalo =
 
 //exercicio 7
 
-let notas = 65;
+let notas = 101;
 
-if (notas >= 90) {
+if (notas < 0 || notas > 100) {
+    console.log('Error')
+}else if (notas >=90 && notas <= 100) {
     console.log('A')
 }else if (notas < 90 && notas >= 80) {
     console.log('B')
@@ -74,8 +76,19 @@ if (notas >= 90) {
 }else if (notas < 60 && notas >= 50) {
     console.log('E')
 }else if (notas < 50) {
-    console.log('F');
-}
+    console.log('F')
+};
 
 //exercicio 8
 
+
+
+const numero1 = 55;
+const numero2 = 25;
+const numero3 = 22;
+
+let temPar = false;
+if(numero1 % 2 === 0 || numero2 % 2 === 0 || numero3 % 2 === 0){
+    temPar = (true)
+};
+console.log(temPar) 
