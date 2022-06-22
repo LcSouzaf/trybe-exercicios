@@ -1,4 +1,4 @@
-let a = 8;
+/* let a = 8;
 let b = 5;
 console.log(soma = a + b);
 console.log(subtracao = a - b);
@@ -91,4 +91,15 @@ let temPar = false;
 if(numero1 % 2 === 0 || numero2 % 2 === 0 || numero3 % 2 === 0){
     temPar = (true)
 };
-console.log(temPar) 
+console.log(temPar)  */
+
+const a = 44
+const b = 66
+const c = 22
+
+let temImpar = false
+
+if(a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0){
+    temImpar=(true)
+}
+console.log(temImpar)
