@@ -59,15 +59,28 @@ console.log(maiorNumero) */
 
 //exercicio 6
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/* let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let quantosImpares = 0;
 for (let index = 0; index < numbers.length; index++) {
   if (numbers[index] % 2 !== 0) {
     quantosImpares += 1;
-  } else if (numbers[index] % 2 === 0) {
-  } else if ((quantosImpares = 0)) {
-    console.log("nenhum numero impar");
-  } else if (quantosImpares > 0) {
-    console.log(quantosImpares);
   }
 }
+if (quantosImpares === 0) {
+    console.log('nenhum valor ímpar encontrado');
+  } else {
+    console.log(quantosImpares);
+  } */
+
+//exercicios 7
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+let menorNumero = numbers[0];
+for (let index = 0; index < numbers.length; index++) {
+    
+    if(numbers[index] < menorNumero){
+    menorNumero = numbers[index]
+   } 
+}
+console.log(menorNumero)
