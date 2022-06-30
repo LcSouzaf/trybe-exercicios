@@ -83,14 +83,22 @@
       section3.id = "right-content";
       corpoMain.appendChild(section3);
 
-      function colocaImg() {
-        const img1 = document.createElement("img");
-        img1.src = "https://picsum.photos/200";
-        criaImgSection.className = "small image";
-        body.firstElementChild.lastElementChild.previousElementSibling.appendChild(
-          img1
-        );
-      } // referencia mdn
+      const img1 = document.createElement("img");
+      img1.src = "https://picsum.photos/200";
+      img1.className = "small-image";
+      const section2Path = corpoMain.lastElementChild.previousElementSibling;
+      section2Path.appendChild(img1); //ref mdn
+
+      const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      const criandoUl = document.createElement("ul");
+      const section3Path = corpoMain.lastElementChild;
+      section3Path.appendChild(criandoUl);
+      for (let index = 0; index < array1.length; index += 1) {
+        const criandoLi = document.createElement("li");
+        const sectionUl = section3Path.firstElementChild;
+        criandoLi.innerHTML = array1[index];
+        sectionUl.appendChild(criandoLi);
+      }
     </script>
   </body>
 </html>
